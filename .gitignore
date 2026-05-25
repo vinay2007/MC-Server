@@ -39,3 +39,6 @@ proxyId.txt
 # OS specific files
 .DS_Store
 Thumbs.db
+
+# Agent specific files
+.gemini/
