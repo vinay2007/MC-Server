@@ -1,0 +1,41 @@
+# Minecraft Server Runtime Files
+**/logs/
+**/world/
+**/world_nether/
+**/world_the_end/
+**/usercache.json
+**/ops.json
+**/whitelist.json
+**/banned-ips.json
+**/banned-players.json
+**/version_history.json
+**/session.lock
+**/*.log
+**/*.log.gz
+
+# Plugin Data & Databases
+**/plugins/fastlogin/
+**/plugins/FastLogin/
+**/plugins/AuthMe/
+**/plugins/SkinsRestorer/
+**/plugins/LuckPerms/
+**/*.db
+**/*.db-shm
+**/*.db-wal
+
+# Secrets & Personal Configs
+forwarding.secret
+playit.toml
+proxyId.txt
+
+# Binaries & Installers
+*.exe
+*.msi
+*.jar
+!**/1_Velocity_Proxy/velocity.jar
+!**/2_Paper_Server/paper.jar
+!**/plugins/*.jar
+
+# OS specific files
+.DS_Store
+Thumbs.db
