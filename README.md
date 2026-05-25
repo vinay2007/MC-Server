@@ -29,8 +29,16 @@ This project showcases a professional-grade Minecraft server architecture design
 ## 📂 Project Structure
 *   `1_Velocity_Proxy/`: The entry point for all players.
 *   `2_Paper_Server/`: The high-performance game instance (Lobby).
-*   `setup_network.ps1`: Automated builder for the network environment.
+*   `deploy.ps1`: One-click setup (Generates secrets, downloads tunnel).
 *   `restart_all.bat`: One-click sequential startup for all components.
+
+## 🚀 Quick Start (Deployment)
+
+1.  **Clone the Repo:** `git clone https://github.com/YOUR_USERNAME/Hybrid-Minecraft-Network.git`
+2.  **Deploy:** Right-click `deploy.ps1` and select **Run with PowerShell**.
+    *   *This will generate your unique secrets and download the tunnel agent.*
+3.  **Start:** Run `restart_all.bat`.
+4.  **Claim:** Click the link in the playit.gg window to get your public server address.
 
 ---
 *Developed as a technical showcase for Minecraft Server Administration and Networking.*
